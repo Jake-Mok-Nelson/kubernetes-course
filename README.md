@@ -28,7 +28,8 @@ Container Basics: Participants should have a good understanding of containerizat
 2. Kubernetes Architecture
    - Nodes: Master and Worker
    - Clusters
-   - Pods: The smallest deployable unit
+
+3. Pods: The smallest deployable unit
 
 ### Activities:
 - Presentation and discussion of Kubernetes fundamentals.
@@ -47,10 +48,12 @@ Container Basics: Participants should have a good understanding of containerizat
 1. Installing Minikube/Kind
    - Local Kubernetes for development
    - Minikube/Kind vs. production clusters
+   - Connecting to Google Kubernetes Engine (GKE)
 
 2. Introduction to kubectl
    - Basic commands (get, create, delete)
    - Interacting with Kubernetes resources (pods, services)
+
 
 ### Activities:
 - Guided installation of Minikube/Kind.

@@ -29,6 +29,15 @@ Security: Offers robust security features.
 
 Extensibility: Can be extended for custom needs.
 
-
 ## Evolution of container orchestration
 
+1. Manual Management: Initially, containers required manual deployment and scaling.
+1. Docker Compose: Docker's tool for defining multi-container applications.
+1. Docker Swarm: Docker's basic built-in orchestration solution.
+1. Kubernetes Emerges: Google's powerful container orchestration platform gains popularity.
+1. Container Orchestration Ecosystem: A rich set of tools extends Kubernetes' capabilities.
+1. Managed Kubernetes Services: Public cloud providers offer simplified Kubernetes management.
+1. Serverless Containers: Services like AWS Fargate or Cloud Run enable serverless container deployments.
+
+
+![Container evolution](container_evolution.svg)
