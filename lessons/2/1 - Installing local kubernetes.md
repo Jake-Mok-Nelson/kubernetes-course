@@ -4,6 +4,8 @@
 
 1. Install Brew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 1. Install Docker Desktop
+1. Install kubectl `curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/arm64/kubectl"`
+1. Ensure kubectl is in $PATH and working: `kubectl version`
 1. Install Kind: `brew install kind`
 1. Ensure the binary is present and working: `kind version`
 
