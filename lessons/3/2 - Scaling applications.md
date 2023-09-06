@@ -56,7 +56,7 @@ Kubernetes supports automatic horizontal scaling using Horizontal Pod Autoscalin
 To create an HPA resource, you can define an HPA manifest, such as:
 
 ```yaml
-apiVersion: autoscaling/v2beta2
+apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: my-hpa
