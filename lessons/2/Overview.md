@@ -13,6 +13,7 @@
 2. Introduction to kubectl
    - Basic commands (get, create, delete)
    - Interacting with Kubernetes resources (pods, services)
+   - Tips
 
 ### Activities:
 - Guided installation of Minikube/Kind.
