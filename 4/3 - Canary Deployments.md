@@ -11,7 +11,9 @@ Canary Deployments involve releasing a new version of an application to a small 
 ### How Canary Deployments Work in Kubernetes
 Traffic Splitting: Kubernetes enables you to control the percentage of traffic routed to the new version (canaries) and the existing version (baseline). For example, you might start with 10% of traffic going to the canary and 90% to the baseline.
 
-### Monitoring and Analysis: During the Canary Deployment, you closely monitor various metrics, including performance indicators (response times, latency), error rates, and user feedback.
+### Monitoring and Analysis: 
+
+During the Canary Deployment, you closely monitor various metrics, including performance indicators (response times, latency), error rates, and user feedback.
 
 Gradual Expansion: Based on the monitoring results, you can make informed decisions about whether to expand the canary deployment to a larger audience or make adjustments.
 
