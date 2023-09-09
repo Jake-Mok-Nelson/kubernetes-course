@@ -66,6 +66,27 @@ Networking proxies or load balancers can be deployed as DaemonSets to handle tra
 Security agents and compliance tools can be deployed as DaemonSets to enforce policies and monitor node-level security.
 
 
+```mermaid
+graph TD;
+
+subgraph Cluster {
+  A[Node 1]
+  B[Node 2]
+  C[Node 3]
+  D[...]
+}
+
+subgraph DaemonSet {
+  DS(DaemonSet)
+}
+
+A --> DS
+B --> DS
+C --> DS
+D --> DS
+
+```
+
 ## Managing Node-Level Services
 
 *Deploying Node-Level Services:*
