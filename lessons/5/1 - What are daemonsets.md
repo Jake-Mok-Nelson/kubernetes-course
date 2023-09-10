@@ -10,8 +10,6 @@ A DaemonSet ensures that one copy of a Pod runs on each node in the cluster.
 
 It automatically adds or removes Pods as nodes are added or removed from the cluster.
 
-DaemonSets are useful for tasks that need to run on every node, such as monitoring agents, log collectors, or networking proxies.
-
 
 ```yaml
 apiVersion: apps/v1
