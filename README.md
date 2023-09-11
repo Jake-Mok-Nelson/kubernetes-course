@@ -112,7 +112,7 @@ Container Basics: Participants should have a good understanding of containerizat
 
 ---
 
-### Lesson 5: DaemonSets and Specialized Workloads
+### Lesson 5: DaemonSets and Configuration
 
 **Objectives:**
 - Explore specialized workloads using DaemonSets.
@@ -123,16 +123,14 @@ Container Basics: Participants should have a good understanding of containerizat
    - What are DaemonSets?
    - Use cases for DaemonSets
 
-2. Managing Node-Level Services
-   - Running monitoring agents
-   - Logging collectors with DaemonSets
+2. What are Configmaps?
+- Use cases for Configmaps
+- How to use ConfigMaps
 
-3. Deploying Network Infrastructure
-   - Load balancers and network proxies
-   - Networking policies with DaemonSets
 
 **Activities:**
 - Practical examples of using DaemonSets for node-level services and network infrastructure.
+- Configuration of a pod with ConfigMaps
 
 ---
 

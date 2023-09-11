@@ -11,9 +11,9 @@ Introduction to DaemonSets
 - Use cases for DaemonSets
 - Managing Node-Level Services
 
-2. Running monitoring agents
-- Logging collectors with DaemonSets
-- Deploying Network Infrastructure
+2. What are Configmaps?
+- Use cases for Configmaps
+- How to use ConfigMaps
 
 
 Activities:
